@@ -154,7 +154,6 @@ void JobShop::scheduleTask(Job& job)
 	if(!job.getIsStarted())
 	{
 		job.setIsStarted();
-		job.setTotalTime(1);
 		job.setStartTime(timer);
 	}
 
